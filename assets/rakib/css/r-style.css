@@ -1,0 +1,162 @@
+.col-md-12{
+    width: 81.5%;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+  .logo{
+      width: 50px;
+      height: 50px;
+  }
+
+  .important{
+      padding-left: 20px;
+      color: red;
+  }
+
+  .panel-content{
+      padding:10px;
+  }
+
+  .loading-img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 15%;
+    text-align: center;
+    display: none;
+}
+
+.loading-img img {
+    margin-top: 8%;
+    width: 120px;
+    height: auto;
+}
+
+.product_list{
+    text-align: center;
+    border: 1px dashed red;
+    margin: 0;
+    padding: 0;
+}
+
+.product_list table{
+    width: 98% !important;
+    margin: 10px;
+}
+
+.product_list table input{
+    width: 100px;
+    margin:0;
+    padding: 0;
+    text-align: right !important;
+}
+
+.product_list table tfoot tr{
+    height: 0;
+}
+
+/* .col-md-12 .list{
+    width: 100%;
+} */
+
+.invoice{
+    margin-top: 10px;
+}
+
+/* .list_table{
+    margin: 10px;
+    background: rgb(240, 240, 240);
+}
+.list_table tbody tr td{
+    margin: 0;
+    padding:0;
+} */
+
+.grand_total{
+    font-weight: bolder;
+}
+
+.btn-block{
+    background: cornflowerblue;
+    margin-top: 10px;
+}
+
+.panel-content .col-md-12{
+    width: 100%;
+}
+
+.footer_invoice{
+    margin-right: 20px;
+}
+
+.order_list_heading{
+    font-size: 15px;
+    font-weight: bolder;
+    color: green;
+}
+
+.order_number span{
+    background: antiquewhite;
+    font-weight: bold;
+}
+
+#ex_date{
+    padding-top: 20px;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+#datetimepicker1{
+    padding-top: 15px;
+    margin: 0;
+}
+
+.invoice, .all_product, .summery{
+    margin:10px;
+}
+
+.invoice{
+    width: 80%;
+    margin: auto;
+    margin-top:10px;
+}
+
+.heading{
+    margin:10px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.product_details_heading{
+    margin:10px;
+    margin-top: 30px !important;
+    font-weight: bolder;
+    border-bottom: 1px dashed #0b0000;
+    width: 80%;
+    margin: auto;
+    background: oldlace;
+}
+.all_product{
+    width: 80%;
+    margin: auto;
+}
+
+.summery{        
+    border-top: 1px dashed #0b0000;
+    width: 80%;
+    margin: auto;
+}
+
+#grTotal, #grTotalAmount{
+    font-weight: bold;
+}
